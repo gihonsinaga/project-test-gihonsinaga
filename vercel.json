@@ -1,8 +1,3 @@
 {
-  "rewrites": [
-    {
-      "source": "/api/ideas",
-      "destination": "https://suitmedia-backend.suitdev.com/api/ideas"
-    }
-  ]
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
